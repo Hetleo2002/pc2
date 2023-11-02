@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">parcial</string>
+    <string name="txtCodigo">Escriba el codigo del producto</string>
+    <string name="txtNombre">Escriba el nombre del producto</string>
+    <string name="txtPrecio">Escriba el precio del producto</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnListar">Listar</string>
+    <string name="btnRegresar">Regresar</string>
+</resources>

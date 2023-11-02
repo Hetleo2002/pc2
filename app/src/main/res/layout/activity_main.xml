@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/txtCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtCodigo"
+        android:inputType="number"
+        android:textColorHint="@color/material_dynamic_neutral30" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtNombre"
+        android:inputType="text"
+        android:textColorHint="@color/material_dynamic_neutral30" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtPrecio"
+        android:inputType="number"
+        android:textColorHint="@color/material_dynamic_neutral30" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRegistrar"
+        android:onClick="registrarProducto" />
+
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnListar"
+        android:onClick="mostrarLista"/>
+</LinearLayout>
